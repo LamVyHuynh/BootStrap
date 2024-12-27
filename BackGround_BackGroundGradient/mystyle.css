@@ -1,0 +1,18 @@
+:root {
+  --bs-gradient: linear-gradient(
+    200deg,
+    rgba(255, 255, 255, 0.15),
+    rgb(0, 234, 255)
+  );
+  --bg-custom-gradient: linear-gradient(
+    160deg,
+    rgb(228, 127, 127),
+    rgb(248, 116, 0)
+  );
+}
+
+.myDiv {
+  color: #fff;
+  background-color: red;
+  background-image: var(--bg-custom-gradient);
+}
