@@ -1,0 +1,14 @@
+.square {
+  width: 100px;
+  height: 100px;
+}
+.square1 {
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
