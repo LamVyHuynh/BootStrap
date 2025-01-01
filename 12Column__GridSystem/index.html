@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css BootStap -->
+    <link rel="stylesheet" href="../assets/Bootstrap/css/bootstrap.min.css" />
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col border border-2 border-warning">1</div>
+        <div class="col border border-2 border-warning">2</div>
+        <div class="col border border-2 border-warning">3</div>
+        <div class="col border border-2 border-warning">4</div>
+        <div class="col border border-2 border-warning">5</div>
+        <div class="col border border-2 border-warning">6</div>
+        <div class="col border border-2 border-warning">7</div>
+        <div class="col border border-2 border-warning">8</div>
+        <div class="col border border-2 border-warning">9</div>
+        <div class="col border border-2 border-warning">10</div>
+        <div class="col border border-2 border-warning">11</div>
+        <div class="col border border-2 border-warning">12</div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-2 border border-2 border-primary text-center">
+          col-2
+        </div>
+        <div class="col-4 border border-2 border-primary text-center">
+          col-4
+        </div>
+        <div class="col-6 border border-2 border-primary text-center">
+          col-6
+        </div>
+      </div>
+      <!-- Hoặc có thể để cột cuối cùng là col thoi thì nó sẽ chiếm hết phần còn lại -->
+      <h1>
+        Cột cuối không chỉ định kích thước thì nó sẽ chiếm hết phần còn lại
+      </h1>
+      <div class="row mb-3">
+        <div class="col-2 border border-2 border-primary text-center">
+          col-2
+        </div>
+        <div class="col-4 border border-2 border-primary text-center">
+          col-4
+        </div>
+        <div class="col border border-2 border-primary text-center">col</div>
+      </div>
+      <!-- Column size với breakpoint -->
+      <h1>
+        Cột dùng với breakpoint vd sm>=576px thì nếu đúng kích thước này trở lên
+        thì cột sẽ chiếm lần lượt 2 4 6
+      </h1>
+      <div class="row mb-3">
+        <div class="col-sm-2 border border-2 border-primary text-center">
+          col-2
+        </div>
+        <div class="col-sm-4 border border-2 border-primary text-center">
+          col-4
+        </div>
+        <div class="col-sm-6 border border-2 border-primary text-center">
+          col-6
+        </div>
+      </div>
+      <!-- Nếu không chỉ định kích thước cho các cột thì auto chiếm phần đều nhau -->
+    </div>
+    <h1>Không chỉ định kích thước cho cột ("col-sm")</h1>
+    <div class="row mb-3">
+      <div class="col-sm border border-2 border-primary text-center">col1</div>
+      <div class="col-sm border border-2 border-primary text-center">col2</div>
+      <div class="col-sm border border-2 border-primary text-center">col3</div>
+    </div>
+
+    <!-- Không dùng breakpoint -->
+    <h1>Không chỉ định kích thước cho cột và không dùng breakpoint ("col")</h1>
+    <div class="row mb-3">
+      <div class="col border border-2 border-primary text-center">col1</div>
+      <div class="col border border-2 border-primary text-center">col2</div>
+      <div class="col border border-2 border-primary text-center">col3</div>
+    </div>
+
+    <!-- Trong một khối div có thể có nhiều điểm dừng -->
+    <h1>Có nhiều điểm dừng (breakpoint)</h1>
+    <div class="row mb-3">
+      <div
+        class="col-sm-1 col-md-2 col-lg-3 border border-2 border-primary text-center"
+      >
+        col1
+      </div>
+    </div>
+  </body>
+  <!-- js BootStap -->
+  <script src="../assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
